@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.screen {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#thermometer {
+    margin: 20px 0;
+}
+
+input[type="range"] {
+    width: 300px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.heart-button {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+}

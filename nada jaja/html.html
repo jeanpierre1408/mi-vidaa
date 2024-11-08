@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego para Kasumi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-screen" class="screen">
+        <h1>Hola Kasumi, ¿sabes que te quiero mucho?</h1>
+        <p>Te hice un jueguito espero te gustee, presiona el corazon jaja</p>
+        <button id="continue-button">
+            <img src="corazon.png" alt="Corazón" class="heart-button">
+        </button>
+    </div>
+
+    <div id="cinematic-screen" class="screen hidden">
+        <h1 id="cinematic-text">Sé que no somos nada...</h1>
+    </div>
+
+    <div id="thermometer-screen" class="screen hidden">
+        <h1 id="question-text">¿Pero cuánto me quieres?</h1>
+        <div id="thermometer">
+            <input type="range" id="love-meter" min="0" max="100" value="50">
+        </div>
+        <button id="ready-button">
+            <img src="corazon.png" alt="Corazón" class="heart-button">
+        </button>
+    </div>
+
+    <div id="result-screen" class="screen hidden">
+        <h1 id="result-message"></h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
